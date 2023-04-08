@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Edu+NSW+ACT+Foundation&family=Marck+Script&family=Poppins&family=Sacramento&family=Tangerine:wght@700&display=swap');
+
+
+
+body {
+    font-family: 'Marck Script', cursive;
+
+}
+
+h1 {
+    font-size: 50px;
+    /* font-weight: bolder; */
+}
+
+.Orange-colour {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 15%;
+}
+
+.img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    font-weight:700 ;
+    background-image:linear-gradient(Orange, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
