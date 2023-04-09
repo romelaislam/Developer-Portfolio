@@ -4,7 +4,12 @@
 
 body {
     font-family: 'Marck Script', cursive;
+    margin: 0;
 
+}
+
+h3 {
+    font-weight: 700px;
 }
 
 h1 {
@@ -33,9 +38,41 @@ section {
 .link-button {
     text-decoration: none;
     color: white;
-    font-weight:700 ;
-    background-image:linear-gradient(Orange, tomato);
+    font-weight: 700;
+    background-image: linear-gradient(Orange, tomato);
     padding: 10px 20px;
     border-radius: 5px;
 
+}
+
+.top-banner {
+    background-image: url(developer-portfolio/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+/* part-2 */
+
+.DOWNLODE-RESUME {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.img-2 {
+    width: 70%;
+    padding-left: 5%;
+    padding-right: 15%;
+}
+
+.half-width-2 {
+    width: 40%;
+}
+
+.Dream-Big {
+    margin-top: 10%;
+    background-image: url(./developer-portfolio/dream-bg.png);
+    background-repeat: no-repeat ;
+    background-position: right;
 }
